@@ -1,16 +1,17 @@
 /* ==========================================================================
    VARIABLES
    ========================================================================== */
-
-
 // Fonts
-$body-font: 'Merriweather Sans', Helvetica, Arial, sans-serif;
-$header-font: 'Merriweather', georgia, serif;
-$small-font: $body-font;
+$sans-serif-font: 'Noto Sans', Helvetica, Arial, sans-serif;
+$serif-font: 'Noto Serif', Georgia, serif;
+$small-font: $sans-serif-font;
 
 // Colors
 $black:  #24281a;
 $white:  #d5d5d3;
+$gray:   #828282;
+$lightgray: lighten($gray, 40%);
+$darkgray: darken($gray, 25%);
 $yellow: #ceab07;
 $orange: #c27d38;
 $blue: 	 #798e87;
@@ -19,38 +20,17 @@ $darkblue: darken($blue,15%);
 
 // Color Aliases
 $background-color: $white;
+$primary-color:    $orange;
 $secondary-color:  $blue;
 $text-color:       $black;
-$link-color:	   $yellow;
-$dark-link-color:  $orange;
+$link-color:       $yellow;
+
 
 // Spacing
 $spacing-unit:    30px;
 $lg-spacing-unit: $spacing-unit * 2; //60px
 $content-width: $spacing-unit * 20; //600px
 
+// Borders
 $border-radius: 4px;
-
-
-
-// Our variables
-$base-font-family: Helvetica, Arial, sans-serif;
-$base-font-size:   16px;
-$small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.5;
-
-$spacing-unit:     30px;
-
-$text-color:       #111;
-$background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
-
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
-
-// Width of the content area
-$content-width:    800px;
-
-$on-palm:          600px;
-$on-laptop:        800px;
+$border-width: 2px;

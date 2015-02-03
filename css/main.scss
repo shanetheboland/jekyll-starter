@@ -8,24 +8,26 @@
 /* Tools */
 @import "tools/variables";
 @import "tools/mixins";
-@import "tools/animations";
 
 
 /* Base */
 @import "base/normalize";
 @import "base/global";
-@import "base/typography";
+@import "base/type";
 
 
 /* Layout */
 @import "layout/grid";
+@import "layout/layout";
 @import "layout/header";
 @import "layout/footer";
-@import "layout/layout";
 
 
 /* Modules */
-@import "modules/post";
+@import "modules/buttons";
+@import "modules/code-snippets";
+@import "modules/forms";
 
 
 /* Vendor */
+@import "vendor/animate";

@@ -1,9 +1,29 @@
+//Code and Pre Blocks
+pre,
+code {
+    font-size: 14px;
+    border: $border-width solid $secondary-color;
+    border-radius: $border-radius;
+    background-color: $background-color;
+}
+
+pre {
+    padding: $spacing-unit $lg-spacing-unit;
+    overflow-x: scroll;
+
+    > code {
+        border: 0;
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+
 /**
  * Syntax highlighting styles
  */
 .highlight {
     background: #fff;
-    @extend %vertical-rhythm;
 
     .c     { color: #998; font-style: italic } // Comment
     .err   { color: #a61717; background-color: #e3d2d2 } // Error
