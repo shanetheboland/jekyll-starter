@@ -1,0 +1,13 @@
+.wrapper {
+	width: 100%;
+	max-width: $content-width;
+	margin: 0 auto;
+	padding: 0 $spacing-unit/2;
+}
+
+section {
+	margin-top: $lg-spacing-unit;
+	margin-bottom: $lg-spacing-unit;
+	padding-top: $spacing-unit;
+	padding-bottom: $spacing-unit;
+}

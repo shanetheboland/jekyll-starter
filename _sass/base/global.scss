@@ -1,0 +1,49 @@
+/* ==========================================================================
+   SITE STYLES
+   ========================================================================== */
+/* Preserve some sanity */
+
+
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    font: normal 400 20px/1.5 $body-font;
+    color: $text-color;
+    background-color: $background-color;
+    -webkit-text-size-adjust: 100%;
+}
+ul, ol {
+    margin: 0;
+    padding: 0;
+}
+// Images
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+// Links
+a {
+    color: $link-color;
+    text-decoration: none;
+    @include transition(color);
+    &:visited {
+        color: $link-color;
+    }
+    &:hover {
+        color: $dark-link-color;
+    }
+}
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}

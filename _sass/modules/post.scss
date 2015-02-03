@@ -1,0 +1,38 @@
+.post-list {
+	list-style-type: none;
+}
+
+.post-list li {
+	text-align: center;
+	margin-top: $lg-spacing-unit;
+	margin-bottom: $lg-spacing-unit;
+}
+
+.post-list hr:last-of-type {
+//hides the last hr in the post list
+	display: none;
+}
+
+.featured-projects {
+	text-align: center;
+
+	img {
+		margin: $spacing-unit auto;
+		border-radius: $border-radius;
+	}
+
+	a {
+		color: $secondary-color;
+		&:visited {
+			color: $secondary-color;
+		}
+		&:hover {
+			color: darken($secondary-color,15%);
+		}
+	}
+
+	span {
+		vertical-align: middle;
+	}
+	
+}
