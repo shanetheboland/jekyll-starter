@@ -6,24 +6,26 @@ $sans-serif-font: 'Noto Sans', Helvetica, Arial, sans-serif;
 $serif-font: 'Noto Serif', Georgia, serif;
 $small-font: $sans-serif-font;
 
-// Colors
-$black:  #24281a;
-$white:  #d5d5d3;
+// Black & White
+$black:  #000000;
+$white:  #FFFFFF;
+
+//Gray
 $gray:   #828282;
 $lightgray: lighten($gray, 40%);
 $darkgray: darken($gray, 25%);
-$yellow: #ceab07;
-$orange: #c27d38;
-$blue: 	 #798e87;
-$darkblue: darken($blue,15%);
+
+// Colors
+$red: #FF4136;
+$blue: 	 #0074D9;
 
 
 // Color Aliases
 $background-color: $white;
-$primary-color:    $orange;
+$primary-color:    $red;
 $secondary-color:  $blue;
 $text-color:       $black;
-$link-color:       $yellow;
+$link-color:       $blue;
 
 
 // Spacing
